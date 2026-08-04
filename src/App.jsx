@@ -68,8 +68,8 @@ function App() {
     setPlayerData(null);
 
     try {
-      // API call to Enka.Network
-      const response = await fetch(`https://enka.network/api/uid/${uid}/`);
+      // API call to Enka.Network (Sondaki slash kaldırıldı, Redirect CORS hatasını önlemek için)
+      const response = await fetch(`https://enka.network/api/uid/${uid}`);
       if (!response.ok) throw new Error('Hesap bulunamadı veya Showcase gizli!');
       
       const data = await response.json();
