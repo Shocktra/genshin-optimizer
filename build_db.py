@@ -156,6 +156,35 @@ for char_id, char_data in chars.items():
         "talent_priority": talent_priority
     }
 
+# Eksik Beta Karakterleri Manuel Olarak Ekle (Kullanıcı İsteği: Lauma ve Nefer)
+guides["10000125"] = {
+    "name": "Lauma (Columbina)",
+    "element": "Unknown",
+    "icon": "UI_AvatarIcon_Columbina",
+    "optimal_stats": {"elementalMastery": 1000, "energyRecharge": 160, "hp": 30000},
+    "weapons": ["A Thousand Floating Dreams", "Sacrificial Fragments"],
+    "artifacts": ["4x Gilded Dreams", "4x Deepwood Memories"],
+    "talent_priority": [
+        { "name": "Elemental Skill", "recommendedLevel": 10 },
+        { "name": "Elemental Burst", "recommendedLevel": 8 },
+        { "name": "Normal Attack", "recommendedLevel": 1 }
+    ]
+}
+
+guides["10000133"] = {
+    "name": "Nefer (Sandrone)",
+    "element": "Unknown",
+    "icon": "UI_AvatarIcon_Sandrone",
+    "optimal_stats": {"elementalMastery": 900, "energyRecharge": 180, "critRate": 50, "critDamage": 120},
+    "weapons": ["Wandering Evenstar", "Magic Guide"],
+    "artifacts": ["4x Flower of Paradise Lost", "4x Gilded Dreams"],
+    "talent_priority": [
+        { "name": "Elemental Burst", "recommendedLevel": 10 },
+        { "name": "Elemental Skill", "recommendedLevel": 9 },
+        { "name": "Normal Attack", "recommendedLevel": 1 }
+    ]
+}
+
 with open(GUIDES_PATH, 'w', encoding='utf-8') as f:
     json.dump(guides, f, indent=2, ensure_ascii=False)
 
