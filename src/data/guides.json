@@ -58,5 +58,50 @@
       { "name": "Normal Attack: Abductive Reasoning", "recommendedLevel": 9 },
       { "name": "Particular Field: Fetters of Phenomena (Burst)", "recommendedLevel": 8 }
     ]
+  },
+  "10000089": {
+    "name": "Furina",
+    "element": "Hydro",
+    "optimal_stats": {
+      "hp": 40000,
+      "energyRecharge": 160,
+      "critRate": 70,
+      "critDamage": 140
+    },
+    "talent_priority": [
+      { "name": "Let the People Rejoice (Burst)", "recommendedLevel": 10 },
+      { "name": "Salon Solitaire (Skill)", "recommendedLevel": 10 },
+      { "name": "Normal Attack", "recommendedLevel": 1 }
+    ]
+  },
+  "10000106": {
+    "name": "Mavuika",
+    "element": "Pyro",
+    "optimal_stats": {
+      "atk": 2500,
+      "critRate": 60,
+      "critDamage": 180,
+      "elementalMastery": 200
+    },
+    "talent_priority": [
+      { "name": "Elemental Skill", "recommendedLevel": 10 },
+      { "name": "Elemental Burst", "recommendedLevel": 9 },
+      { "name": "Normal Attack", "recommendedLevel": 8 }
+    ]
+  },
+  "10000133": {
+    "name": "Sandrone / Yeni Karakter",
+    "element": "Unknown",
+    "optimal_stats": {
+      "atk": 2000,
+      "critRate": 70,
+      "critDamage": 140,
+      "energyRecharge": 130
+    },
+    "talent_priority": [
+      { "name": "Elemental Skill", "recommendedLevel": 9 },
+      { "name": "Elemental Burst", "recommendedLevel": 9 },
+      { "name": "Normal Attack", "recommendedLevel": 6 }
+    ]
   }
 }
