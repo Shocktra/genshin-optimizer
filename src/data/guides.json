@@ -1,180 +1,12 @@
 {
-  "10000052": {
-    "name": "Raiden Shogun",
-    "element": "Electro",
-    "optimal_stats": {
-      "energyRecharge": 250,
-      "critRate": 60,
-      "critDamage": 140,
-      "atk": 1800
-    },
-    "talent_priority": [
-      {
-        "name": "Secret Art: Musou Shinsetsu (Burst)",
-        "recommendedLevel": 9
-      },
-      {
-        "name": "Transcendence: Baleful Omen (Skill)",
-        "recommendedLevel": 8
-      },
-      {
-        "name": "Normal Attack",
-        "recommendedLevel": 1
-      }
-    ]
-  },
-  "10000046": {
-    "name": "Hu Tao",
-    "element": "Pyro",
-    "optimal_stats": {
-      "hp": 30000,
-      "elementalMastery": 150,
-      "critRate": 70,
-      "critDamage": 180
-    },
-    "talent_priority": [
-      {
-        "name": "Normal Attack: Secret Spear of Wangsheng",
-        "recommendedLevel": 9
-      },
-      {
-        "name": "Guide to Afterlife (Skill)",
-        "recommendedLevel": 9
-      },
-      {
-        "name": "Spirit Soother (Burst)",
-        "recommendedLevel": 8
-      }
-    ]
-  },
-  "10000087": {
-    "name": "Neuvillette",
-    "element": "Hydro",
-    "optimal_stats": {
-      "hp": 35000,
-      "critRate": 50,
-      "critDamage": 220,
-      "energyRecharge": 120
-    },
-    "talent_priority": [
-      {
-        "name": "Normal Attack: As Water Seeks Equilibrium",
-        "recommendedLevel": 10
-      },
-      {
-        "name": "O Tides, I Have Returned (Burst)",
-        "recommendedLevel": 8
-      },
-      {
-        "name": "O Tears, I Shall Repay (Skill)",
-        "recommendedLevel": 8
-      }
-    ]
-  },
-  "10000078": {
-    "name": "Alhaitham",
-    "element": "Dendro",
-    "optimal_stats": {
-      "elementalMastery": 300,
-      "critRate": 70,
-      "critDamage": 150,
-      "energyRecharge": 130
-    },
-    "talent_priority": [
-      {
-        "name": "Universality: An Elaboration on Form (Skill)",
-        "recommendedLevel": 9
-      },
-      {
-        "name": "Normal Attack: Abductive Reasoning",
-        "recommendedLevel": 9
-      },
-      {
-        "name": "Particular Field: Fetters of Phenomena (Burst)",
-        "recommendedLevel": 8
-      }
-    ]
-  },
-  "10000089": {
-    "name": "Furina",
-    "element": "Hydro",
-    "optimal_stats": {
-      "hp": 40000,
-      "energyRecharge": 160,
-      "critRate": 70,
-      "critDamage": 140
-    },
-    "talent_priority": [
-      {
-        "name": "Let the People Rejoice (Burst)",
-        "recommendedLevel": 10
-      },
-      {
-        "name": "Salon Solitaire (Skill)",
-        "recommendedLevel": 10
-      },
-      {
-        "name": "Normal Attack",
-        "recommendedLevel": 1
-      }
-    ]
-  },
-  "10000106": {
-    "name": "Mavuika",
-    "element": "Pyro",
-    "optimal_stats": {
-      "atk": 2500,
-      "critRate": 60,
-      "critDamage": 180,
-      "elementalMastery": 200
-    },
-    "talent_priority": [
-      {
-        "name": "Elemental Skill",
-        "recommendedLevel": 10
-      },
-      {
-        "name": "Elemental Burst",
-        "recommendedLevel": 9
-      },
-      {
-        "name": "Normal Attack",
-        "recommendedLevel": 8
-      }
-    ]
-  },
-  "10000133": {
-    "name": "Sandrone / Yeni Karakter",
-    "element": "Unknown",
-    "optimal_stats": {
-      "atk": 2000,
-      "critRate": 70,
-      "critDamage": 140,
-      "energyRecharge": 130
-    },
-    "talent_priority": [
-      {
-        "name": "Elemental Skill",
-        "recommendedLevel": 9
-      },
-      {
-        "name": "Elemental Burst",
-        "recommendedLevel": 9
-      },
-      {
-        "name": "Normal Attack",
-        "recommendedLevel": 6
-      }
-    ]
-  },
   "10000002": {
     "name": "Kamisato Ayaka",
     "element": "Ice",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
+      "atk": 2000,
       "energyRecharge": 130,
-      "atk": 2000
+      "critRate": 40,
+      "critDamage": 200
     },
     "talent_priority": [
       {
@@ -197,7 +29,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -221,7 +53,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -269,7 +101,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -411,10 +243,8 @@
     "name": "Venti",
     "element": "Wind",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 160,
-      "elementalMastery": 800
+      "elementalMastery": 800,
+      "energyRecharge": 160
     },
     "talent_priority": [
       {
@@ -435,10 +265,11 @@
     "name": "Xiangling",
     "element": "Fire",
     "optimal_stats": {
+      "atk": 1500,
+      "elementalMastery": 150,
+      "energyRecharge": 200,
       "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "atk": 2000
+      "critDamage": 120
     },
     "talent_priority": [
       {
@@ -483,10 +314,10 @@
     "name": "Xingqiu",
     "element": "Water",
     "optimal_stats": {
+      "atk": 1600,
+      "energyRecharge": 180,
       "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "hp": 30000
+      "critDamage": 120
     },
     "talent_priority": [
       {
@@ -507,10 +338,10 @@
     "name": "Xiao",
     "element": "Wind",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 160,
-      "elementalMastery": 800
+      "atk": 2100,
+      "energyRecharge": 120,
+      "critRate": 75,
+      "critDamage": 160
     },
     "talent_priority": [
       {
@@ -534,8 +365,7 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "def": 2000,
-      "atk": 1500
+      "def": 2000
     },
     "talent_priority": [
       {
@@ -580,11 +410,8 @@
     "name": "Zhongli",
     "element": "Rock",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "def": 2000,
-      "atk": 1500
+      "hp": 40000,
+      "energyRecharge": 130
     },
     "talent_priority": [
       {
@@ -629,10 +456,8 @@
     "name": "Bennett",
     "element": "Fire",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "atk": 2000
+      "hp": 25000,
+      "energyRecharge": 220
     },
     "talent_priority": [
       {
@@ -653,10 +478,10 @@
     "name": "Tartaglia",
     "element": "Water",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "hp": 30000
+      "atk": 2000,
+      "elementalMastery": 100,
+      "critRate": 70,
+      "critDamage": 140
     },
     "talent_priority": [
       {
@@ -680,8 +505,7 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "def": 2000,
-      "atk": 1500
+      "def": 2000
     },
     "talent_priority": [
       {
@@ -750,10 +574,10 @@
     "name": "Ganyu",
     "element": "Ice",
     "optimal_stats": {
+      "atk": 2200,
+      "elementalMastery": 150,
       "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "atk": 2000
+      "critDamage": 180
     },
     "talent_priority": [
       {
@@ -774,11 +598,9 @@
     "name": "Albedo",
     "element": "Rock",
     "optimal_stats": {
+      "def": 2500,
       "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "def": 2000,
-      "atk": 1500
+      "critDamage": 120
     },
     "talent_priority": [
       {
@@ -871,10 +693,8 @@
     "name": "Sucrose",
     "element": "Wind",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 160,
-      "elementalMastery": 800
+      "elementalMastery": 800,
+      "energyRecharge": 150
     },
     "talent_priority": [
       {
@@ -939,14 +759,36 @@
       }
     ]
   },
+  "10000046": {
+    "name": "Hu Tao",
+    "element": "Fire",
+    "optimal_stats": {
+      "hp": 30000,
+      "elementalMastery": 150,
+      "critRate": 70,
+      "critDamage": 180
+    },
+    "talent_priority": [
+      {
+        "name": "Elemental Burst",
+        "recommendedLevel": 8
+      },
+      {
+        "name": "Elemental Skill",
+        "recommendedLevel": 8
+      },
+      {
+        "name": "Normal Attack",
+        "recommendedLevel": 6
+      }
+    ]
+  },
   "10000047": {
     "name": "Kaedehara Kazuha",
     "element": "Wind",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 160,
-      "elementalMastery": 800
+      "elementalMastery": 900,
+      "energyRecharge": 160
     },
     "talent_priority": [
       {
@@ -991,10 +833,10 @@
     "name": "Yoimiya",
     "element": "Fire",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "atk": 2000
+      "atk": 2000,
+      "elementalMastery": 100,
+      "critRate": 75,
+      "critDamage": 150
     },
     "talent_priority": [
       {
@@ -1015,10 +857,8 @@
     "name": "Thoma",
     "element": "Fire",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "atk": 2000
+      "elementalMastery": 600,
+      "energyRecharge": 200
     },
     "talent_priority": [
       {
@@ -1039,10 +879,34 @@
     "name": "Eula",
     "element": "Ice",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
+      "atk": 2000,
       "energyRecharge": 130,
-      "atk": 2000
+      "critRate": 70,
+      "critDamage": 150
+    },
+    "talent_priority": [
+      {
+        "name": "Elemental Burst",
+        "recommendedLevel": 8
+      },
+      {
+        "name": "Elemental Skill",
+        "recommendedLevel": 8
+      },
+      {
+        "name": "Normal Attack",
+        "recommendedLevel": 6
+      }
+    ]
+  },
+  "10000052": {
+    "name": "Raiden Shogun",
+    "element": "Electric",
+    "optimal_stats": {
+      "atk": 1800,
+      "energyRecharge": 250,
+      "critRate": 60,
+      "critDamage": 120
     },
     "talent_priority": [
       {
@@ -1065,7 +929,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -1087,10 +951,8 @@
     "name": "Sangonomiya Kokomi",
     "element": "Water",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "hp": 30000
+      "hp": 35000,
+      "energyRecharge": 160
     },
     "talent_priority": [
       {
@@ -1114,8 +976,7 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "def": 2000,
-      "atk": 1500
+      "def": 2000
     },
     "talent_priority": [
       {
@@ -1160,11 +1021,10 @@
     "name": "Arataki Itto",
     "element": "Rock",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
+      "def": 2200,
       "energyRecharge": 130,
-      "def": 2000,
-      "atk": 1500
+      "critRate": 70,
+      "critDamage": 150
     },
     "talent_priority": [
       {
@@ -1185,10 +1045,10 @@
     "name": "Yae Miko",
     "element": "Electric",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "atk": 2000
+      "atk": 1800,
+      "elementalMastery": 100,
+      "critRate": 70,
+      "critDamage": 150
     },
     "talent_priority": [
       {
@@ -1211,7 +1071,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -1233,10 +1093,10 @@
     "name": "Yelan",
     "element": "Water",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "hp": 30000
+      "hp": 32000,
+      "energyRecharge": 180,
+      "critRate": 70,
+      "critDamage": 160
     },
     "talent_priority": [
       {
@@ -1260,8 +1120,8 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "atk": 2000,
-      "elementalMastery": 250
+      "elementalMastery": 250,
+      "atk": 1500
     },
     "talent_priority": [
       {
@@ -1306,10 +1166,8 @@
     "name": "Shenhe",
     "element": "Ice",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "atk": 2000
+      "atk": 3000,
+      "energyRecharge": 160
     },
     "talent_priority": [
       {
@@ -1333,8 +1191,7 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "def": 2000,
-      "atk": 1500
+      "def": 2000
     },
     "talent_priority": [
       {
@@ -1355,10 +1212,8 @@
     "name": "Kuki Shinobu",
     "element": "Electric",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "atk": 2000
+      "hp": 25000,
+      "elementalMastery": 900
     },
     "talent_priority": [
       {
@@ -1379,10 +1234,10 @@
     "name": "Kamisato Ayato",
     "element": "Water",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
+      "atk": 2000,
       "energyRecharge": 130,
-      "hp": 30000
+      "critRate": 70,
+      "critDamage": 150
     },
     "talent_priority": [
       {
@@ -1406,8 +1261,8 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "atk": 2000,
-      "elementalMastery": 250
+      "elementalMastery": 250,
+      "atk": 1500
     },
     "talent_priority": [
       {
@@ -1452,11 +1307,10 @@
     "name": "Tighnari",
     "element": "Grass",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "atk": 2000,
-      "elementalMastery": 250
+      "atk": 1300,
+      "elementalMastery": 350,
+      "critRate": 70,
+      "critDamage": 140
     },
     "talent_priority": [
       {
@@ -1477,10 +1331,9 @@
     "name": "Nilou",
     "element": "Water",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "hp": 30000
+      "hp": 70000,
+      "elementalMastery": 300,
+      "energyRecharge": 130
     },
     "talent_priority": [
       {
@@ -1501,10 +1354,11 @@
     "name": "Cyno",
     "element": "Electric",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
+      "atk": 1500,
+      "elementalMastery": 300,
       "energyRecharge": 130,
-      "atk": 2000
+      "critRate": 70,
+      "critDamage": 140
     },
     "talent_priority": [
       {
@@ -1549,11 +1403,10 @@
     "name": "Nahida",
     "element": "Grass",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "atk": 2000,
-      "elementalMastery": 250
+      "elementalMastery": 800,
+      "energyRecharge": 140,
+      "critRate": 50,
+      "critDamage": 120
     },
     "talent_priority": [
       {
@@ -1598,10 +1451,9 @@
     "name": "Wanderer",
     "element": "Wind",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 160,
-      "elementalMastery": 800
+      "atk": 2000,
+      "critRate": 70,
+      "critDamage": 150
     },
     "talent_priority": [
       {
@@ -1624,7 +1476,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -1649,8 +1501,33 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "atk": 2000,
-      "elementalMastery": 250
+      "elementalMastery": 250,
+      "atk": 1500
+    },
+    "talent_priority": [
+      {
+        "name": "Elemental Burst",
+        "recommendedLevel": 8
+      },
+      {
+        "name": "Elemental Skill",
+        "recommendedLevel": 8
+      },
+      {
+        "name": "Normal Attack",
+        "recommendedLevel": 6
+      }
+    ]
+  },
+  "10000078": {
+    "name": "Alhaitham",
+    "element": "Grass",
+    "optimal_stats": {
+      "atk": 1200,
+      "elementalMastery": 350,
+      "energyRecharge": 130,
+      "critRate": 70,
+      "critDamage": 150
     },
     "talent_priority": [
       {
@@ -1671,10 +1548,8 @@
     "name": "Dehya",
     "element": "Fire",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "atk": 2000
+      "hp": 30000,
+      "energyRecharge": 180
     },
     "talent_priority": [
       {
@@ -1722,8 +1597,8 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "atk": 2000,
-      "elementalMastery": 250
+      "elementalMastery": 250,
+      "atk": 1500
     },
     "talent_priority": [
       {
@@ -1744,11 +1619,8 @@
     "name": "Baizhu",
     "element": "Grass",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "atk": 2000,
-      "elementalMastery": 250
+      "hp": 45000,
+      "energyRecharge": 180
     },
     "talent_priority": [
       {
@@ -1771,7 +1643,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -1861,6 +1733,30 @@
       }
     ]
   },
+  "10000087": {
+    "name": "Neuvillette",
+    "element": "Water",
+    "optimal_stats": {
+      "hp": 35000,
+      "energyRecharge": 120,
+      "critRate": 50,
+      "critDamage": 220
+    },
+    "talent_priority": [
+      {
+        "name": "Elemental Burst",
+        "recommendedLevel": 8
+      },
+      {
+        "name": "Elemental Skill",
+        "recommendedLevel": 8
+      },
+      {
+        "name": "Normal Attack",
+        "recommendedLevel": 6
+      }
+    ]
+  },
   "10000088": {
     "name": "Charlotte",
     "element": "Ice",
@@ -1869,6 +1765,30 @@
       "critDamage": 120,
       "energyRecharge": 130,
       "atk": 2000
+    },
+    "talent_priority": [
+      {
+        "name": "Elemental Burst",
+        "recommendedLevel": 8
+      },
+      {
+        "name": "Elemental Skill",
+        "recommendedLevel": 8
+      },
+      {
+        "name": "Normal Attack",
+        "recommendedLevel": 6
+      }
+    ]
+  },
+  "10000089": {
+    "name": "Furina",
+    "element": "Water",
+    "optimal_stats": {
+      "hp": 40000,
+      "energyRecharge": 160,
+      "critRate": 70,
+      "critDamage": 140
     },
     "talent_priority": [
       {
@@ -1913,11 +1833,10 @@
     "name": "Navia",
     "element": "Rock",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
+      "atk": 2500,
       "energyRecharge": 130,
-      "def": 2000,
-      "atk": 1500
+      "critRate": 70,
+      "critDamage": 150
     },
     "talent_priority": [
       {
@@ -1964,7 +1883,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -1989,8 +1908,7 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "def": 2000,
-      "atk": 1500
+      "def": 2000
     },
     "talent_priority": [
       {
@@ -2035,10 +1953,10 @@
     "name": "Arlecchino",
     "element": "Fire",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "atk": 2000
+      "atk": 2200,
+      "elementalMastery": 100,
+      "critRate": 70,
+      "critDamage": 150
     },
     "talent_priority": [
       {
@@ -2083,10 +2001,10 @@
     "name": "Clorinde",
     "element": "Electric",
     "optimal_stats": {
-      "critRate": 60,
-      "critDamage": 120,
-      "energyRecharge": 130,
-      "atk": 2000
+      "atk": 2000,
+      "elementalMastery": 100,
+      "critRate": 70,
+      "critDamage": 150
     },
     "talent_priority": [
       {
@@ -2110,8 +2028,8 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "atk": 2000,
-      "elementalMastery": 250
+      "elementalMastery": 250,
+      "atk": 1500
     },
     "talent_priority": [
       {
@@ -2135,8 +2053,7 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "def": 2000,
-      "atk": 1500
+      "def": 2000
     },
     "talent_priority": [
       {
@@ -2160,8 +2077,8 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "atk": 2000,
-      "elementalMastery": 250
+      "elementalMastery": 250,
+      "atk": 1500
     },
     "talent_priority": [
       {
@@ -2209,8 +2126,7 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "def": 2000,
-      "atk": 1500
+      "def": 2000
     },
     "talent_priority": [
       {
@@ -2233,7 +2149,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -2259,6 +2175,30 @@
       "critDamage": 120,
       "energyRecharge": 130,
       "atk": 2000
+    },
+    "talent_priority": [
+      {
+        "name": "Elemental Burst",
+        "recommendedLevel": 8
+      },
+      {
+        "name": "Elemental Skill",
+        "recommendedLevel": 8
+      },
+      {
+        "name": "Normal Attack",
+        "recommendedLevel": 6
+      }
+    ]
+  },
+  "10000106": {
+    "name": "Mavuika",
+    "element": "Fire",
+    "optimal_stats": {
+      "atk": 2500,
+      "elementalMastery": 200,
+      "critRate": 60,
+      "critDamage": 180
     },
     "talent_priority": [
       {
@@ -2305,7 +2245,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -2329,7 +2269,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -2425,7 +2365,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -2522,8 +2462,8 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "atk": 2000,
-      "elementalMastery": 250
+      "elementalMastery": 250,
+      "atk": 1500
     },
     "talent_priority": [
       {
@@ -2595,8 +2535,8 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "atk": 2000,
-      "elementalMastery": 250
+      "elementalMastery": 250,
+      "atk": 1500
     },
     "talent_priority": [
       {
@@ -2643,7 +2583,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -2835,7 +2775,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -2860,8 +2800,7 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "def": 2000,
-      "atk": 1500
+      "def": 2000
     },
     "talent_priority": [
       {
@@ -2909,8 +2848,8 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "atk": 2000,
-      "elementalMastery": 250
+      "elementalMastery": 250,
+      "atk": 1500
     },
     "talent_priority": [
       {
@@ -3029,7 +2968,7 @@
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
-      "energyRecharge": 160,
+      "energyRecharge": 130,
       "elementalMastery": 800
     },
     "talent_priority": [
@@ -3054,8 +2993,7 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "def": 2000,
-      "atk": 1500
+      "def": 2000
     },
     "talent_priority": [
       {
@@ -3103,8 +3041,8 @@
       "critRate": 60,
       "critDamage": 120,
       "energyRecharge": 130,
-      "atk": 2000,
-      "elementalMastery": 250
+      "elementalMastery": 250,
+      "atk": 1500
     },
     "talent_priority": [
       {
