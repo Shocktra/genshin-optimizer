@@ -1,0 +1,62 @@
+{
+  "10000052": {
+    "name": "Raiden Shogun",
+    "element": "Electro",
+    "optimal_stats": {
+      "energyRecharge": 250,
+      "critRate": 60,
+      "critDamage": 140,
+      "atk": 1800
+    },
+    "talent_priority": [
+      { "name": "Secret Art: Musou Shinsetsu (Burst)", "recommendedLevel": 9 },
+      { "name": "Transcendence: Baleful Omen (Skill)", "recommendedLevel": 8 },
+      { "name": "Normal Attack", "recommendedLevel": 1 }
+    ]
+  },
+  "10000046": {
+    "name": "Hu Tao",
+    "element": "Pyro",
+    "optimal_stats": {
+      "hp": 30000,
+      "elementalMastery": 150,
+      "critRate": 70,
+      "critDamage": 180
+    },
+    "talent_priority": [
+      { "name": "Normal Attack: Secret Spear of Wangsheng", "recommendedLevel": 9 },
+      { "name": "Guide to Afterlife (Skill)", "recommendedLevel": 9 },
+      { "name": "Spirit Soother (Burst)", "recommendedLevel": 8 }
+    ]
+  },
+  "10000087": {
+    "name": "Neuvillette",
+    "element": "Hydro",
+    "optimal_stats": {
+      "hp": 35000,
+      "critRate": 50,
+      "critDamage": 220,
+      "energyRecharge": 120
+    },
+    "talent_priority": [
+      { "name": "Normal Attack: As Water Seeks Equilibrium", "recommendedLevel": 10 },
+      { "name": "O Tides, I Have Returned (Burst)", "recommendedLevel": 8 },
+      { "name": "O Tears, I Shall Repay (Skill)", "recommendedLevel": 8 }
+    ]
+  },
+  "10000078": {
+    "name": "Alhaitham",
+    "element": "Dendro",
+    "optimal_stats": {
+      "elementalMastery": 300,
+      "critRate": 70,
+      "critDamage": 150,
+      "energyRecharge": 130
+    },
+    "talent_priority": [
+      { "name": "Universality: An Elaboration on Form (Skill)", "recommendedLevel": 9 },
+      { "name": "Normal Attack: Abductive Reasoning", "recommendedLevel": 9 },
+      { "name": "Particular Field: Fetters of Phenomena (Burst)", "recommendedLevel": 8 }
+    ]
+  }
+}
