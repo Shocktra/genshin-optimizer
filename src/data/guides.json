@@ -2,7 +2,7 @@
   "10000002": {
     "name": "Kamisato Ayaka",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Ayaka",
     "optimal_stats": {
       "atk": 2000,
       "energyRecharge": 130,
@@ -35,7 +35,7 @@
   "10000003": {
     "name": "Jean",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Qin",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -67,7 +67,7 @@
   "10000005": {
     "name": "Traveler",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerBoy",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -99,7 +99,7 @@
   "10000006": {
     "name": "Lisa",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Lisa",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -132,7 +132,7 @@
   "10000007": {
     "name": "Traveler",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerGirl",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -164,7 +164,7 @@
   "10000014": {
     "name": "Barbara",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Barbara",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -197,7 +197,7 @@
   "10000015": {
     "name": "Kaeya",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Kaeya",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -230,7 +230,7 @@
   "10000016": {
     "name": "Diluc",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Diluc",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -263,7 +263,7 @@
   "10000020": {
     "name": "Razor",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Razor",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -296,7 +296,7 @@
   "10000021": {
     "name": "Amber",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Ambor",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -329,7 +329,7 @@
   "10000022": {
     "name": "Venti",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Venti",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -361,7 +361,7 @@
   "10000023": {
     "name": "Xiangling",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Xiangling",
     "optimal_stats": {
       "atk": 1500,
       "elementalMastery": 150,
@@ -395,7 +395,7 @@
   "10000024": {
     "name": "Beidou",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Beidou",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -428,7 +428,7 @@
   "10000025": {
     "name": "Xingqiu",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Xingqiu",
     "optimal_stats": {
       "atk": 1600,
       "energyRecharge": 180,
@@ -462,7 +462,7 @@
   "10000026": {
     "name": "Xiao",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Xiao",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -494,7 +494,7 @@
   "10000027": {
     "name": "Ningguang",
     "element": "Rock",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Ningguang",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -527,7 +527,7 @@
   "10000029": {
     "name": "Klee",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Klee",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -560,7 +560,7 @@
   "10000030": {
     "name": "Zhongli",
     "element": "Rock",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Zhongli",
     "optimal_stats": {
       "hp": 40000,
       "energyRecharge": 130
@@ -592,7 +592,7 @@
   "10000031": {
     "name": "Fischl",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Fischl",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -625,7 +625,7 @@
   "10000032": {
     "name": "Bennett",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Bennett",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -658,7 +658,7 @@
   "10000033": {
     "name": "Tartaglia",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Tartaglia",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -691,7 +691,7 @@
   "10000034": {
     "name": "Noelle",
     "element": "Rock",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Noel",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -724,7 +724,7 @@
   "10000035": {
     "name": "Qiqi",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Qiqi",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -757,7 +757,7 @@
   "10000036": {
     "name": "Chongyun",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Chongyun",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -790,7 +790,7 @@
   "10000037": {
     "name": "Ganyu",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Ganyu",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -823,7 +823,7 @@
   "10000038": {
     "name": "Albedo",
     "element": "Rock",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Albedo",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -856,7 +856,7 @@
   "10000039": {
     "name": "Diona",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Diona",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -889,7 +889,7 @@
   "10000041": {
     "name": "Mona",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Mona",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -922,7 +922,7 @@
   "10000042": {
     "name": "Keqing",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Keqing",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -955,7 +955,7 @@
   "10000043": {
     "name": "Sucrose",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Sucrose",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -987,7 +987,7 @@
   "10000044": {
     "name": "Xinyan",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Xinyan",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1020,7 +1020,7 @@
   "10000045": {
     "name": "Rosaria",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Rosaria",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1053,7 +1053,7 @@
   "10000046": {
     "name": "Hu Tao",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Hutao",
     "optimal_stats": {
       "hp": 30000,
       "elementalMastery": 150,
@@ -1087,7 +1087,7 @@
   "10000047": {
     "name": "Kaedehara Kazuha",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Kazuha",
     "optimal_stats": {
       "elementalMastery": 900,
       "energyRecharge": 160
@@ -1118,7 +1118,7 @@
   "10000048": {
     "name": "Yanfei",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Feiyan",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1151,7 +1151,7 @@
   "10000049": {
     "name": "Yoimiya",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Yoimiya",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1184,7 +1184,7 @@
   "10000050": {
     "name": "Thoma",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Tohma",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1217,7 +1217,7 @@
   "10000051": {
     "name": "Eula",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Eula",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1250,7 +1250,7 @@
   "10000052": {
     "name": "Raiden Shogun",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Shougun",
     "optimal_stats": {
       "atk": 1800,
       "energyRecharge": 250,
@@ -1283,7 +1283,7 @@
   "10000053": {
     "name": "Sayu",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Sayu",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1315,7 +1315,7 @@
   "10000054": {
     "name": "Sangonomiya Kokomi",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Kokomi",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1348,7 +1348,7 @@
   "10000055": {
     "name": "Gorou",
     "element": "Rock",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Gorou",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1381,7 +1381,7 @@
   "10000056": {
     "name": "Kujou Sara",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Sara",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1414,7 +1414,7 @@
   "10000057": {
     "name": "Arataki Itto",
     "element": "Rock",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Itto",
     "optimal_stats": {
       "def": 2200,
       "energyRecharge": 130,
@@ -1447,7 +1447,7 @@
   "10000058": {
     "name": "Yae Miko",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Yae",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1480,7 +1480,7 @@
   "10000059": {
     "name": "Shikanoin Heizou",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Heizo",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1512,7 +1512,7 @@
   "10000060": {
     "name": "Yelan",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Yelan",
     "optimal_stats": {
       "hp": 32000,
       "energyRecharge": 180,
@@ -1545,7 +1545,7 @@
   "10000061": {
     "name": "Kirara",
     "element": "Grass",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Momoka",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1579,7 +1579,7 @@
   "10000062": {
     "name": "Aloy",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Aloy",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1612,7 +1612,7 @@
   "10000063": {
     "name": "Shenhe",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Shenhe",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1645,7 +1645,7 @@
   "10000064": {
     "name": "Yun Jin",
     "element": "Rock",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Yunjin",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1678,7 +1678,7 @@
   "10000065": {
     "name": "Kuki Shinobu",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Shinobu",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1711,7 +1711,7 @@
   "10000066": {
     "name": "Kamisato Ayato",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Ayato",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1744,7 +1744,7 @@
   "10000067": {
     "name": "Collei",
     "element": "Grass",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Collei",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1778,7 +1778,7 @@
   "10000068": {
     "name": "Dori",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Dori",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1811,7 +1811,7 @@
   "10000069": {
     "name": "Tighnari",
     "element": "Grass",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Tighnari",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1845,7 +1845,7 @@
   "10000070": {
     "name": "Nilou",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Nilou",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1878,7 +1878,7 @@
   "10000071": {
     "name": "Cyno",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Cyno",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1911,7 +1911,7 @@
   "10000072": {
     "name": "Candace",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Candace",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -1944,7 +1944,7 @@
   "10000073": {
     "name": "Nahida",
     "element": "Grass",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Nahida",
     "optimal_stats": {
       "elementalMastery": 800,
       "energyRecharge": 140,
@@ -1978,7 +1978,7 @@
   "10000074": {
     "name": "Layla",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Layla",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2011,7 +2011,7 @@
   "10000075": {
     "name": "Wanderer",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Wanderer",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2043,7 +2043,7 @@
   "10000076": {
     "name": "Faruzan",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Faruzan",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2075,7 +2075,7 @@
   "10000077": {
     "name": "Yaoyao",
     "element": "Grass",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Yaoyao",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2109,7 +2109,7 @@
   "10000078": {
     "name": "Alhaitham",
     "element": "Grass",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Alhatham",
     "optimal_stats": {
       "atk": 1200,
       "elementalMastery": 350,
@@ -2144,7 +2144,7 @@
   "10000079": {
     "name": "Dehya",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Dehya",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2177,7 +2177,7 @@
   "10000080": {
     "name": "Mika",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Mika",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2210,7 +2210,7 @@
   "10000081": {
     "name": "Kaveh",
     "element": "Grass",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Kaveh",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2244,7 +2244,7 @@
   "10000082": {
     "name": "Baizhu",
     "element": "Grass",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Baizhuer",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2278,7 +2278,7 @@
   "10000083": {
     "name": "Lynette",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Linette",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2310,7 +2310,7 @@
   "10000084": {
     "name": "Lyney",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Liney",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2343,7 +2343,7 @@
   "10000085": {
     "name": "Freminet",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Freminet",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2376,7 +2376,7 @@
   "10000086": {
     "name": "Wriothesley",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Wriothesley",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2409,7 +2409,7 @@
   "10000087": {
     "name": "Neuvillette",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Neuvillette",
     "optimal_stats": {
       "hp": 35000,
       "energyRecharge": 120,
@@ -2442,7 +2442,7 @@
   "10000088": {
     "name": "Charlotte",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Charlotte",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2475,7 +2475,7 @@
   "10000089": {
     "name": "Furina",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Furina",
     "optimal_stats": {
       "hp": 40000,
       "energyRecharge": 160,
@@ -2508,7 +2508,7 @@
   "10000090": {
     "name": "Chevreuse",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Chevreuse",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2541,7 +2541,7 @@
   "10000091": {
     "name": "Navia",
     "element": "Rock",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Navia",
     "optimal_stats": {
       "atk": 2500,
       "energyRecharge": 130,
@@ -2574,7 +2574,7 @@
   "10000092": {
     "name": "Gaming",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Gaming",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2607,7 +2607,7 @@
   "10000093": {
     "name": "Xianyun",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Liuyun",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2639,7 +2639,7 @@
   "10000094": {
     "name": "Chiori",
     "element": "Rock",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Chiori",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2672,7 +2672,7 @@
   "10000095": {
     "name": "Sigewinne",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Sigewinne",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2705,7 +2705,7 @@
   "10000096": {
     "name": "Arlecchino",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Arlecchino",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2738,7 +2738,7 @@
   "10000097": {
     "name": "Sethos",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Sethos",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2771,7 +2771,7 @@
   "10000098": {
     "name": "Clorinde",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Clorinde",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2804,7 +2804,7 @@
   "10000099": {
     "name": "Emilie",
     "element": "Grass",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Emilie",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2838,7 +2838,7 @@
   "10000100": {
     "name": "Kachina",
     "element": "Rock",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Kachina",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2871,7 +2871,7 @@
   "10000101": {
     "name": "Kinich",
     "element": "Grass",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Kinich",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2905,7 +2905,7 @@
   "10000102": {
     "name": "Mualani",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Mualani",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2938,7 +2938,7 @@
   "10000103": {
     "name": "Xilonen",
     "element": "Rock",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Xilonen",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -2971,7 +2971,7 @@
   "10000104": {
     "name": "Chasca",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Chasca",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3003,7 +3003,7 @@
   "10000105": {
     "name": "Ororon",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Olorun",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3036,7 +3036,7 @@
   "10000106": {
     "name": "Mavuika",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Mavuika",
     "optimal_stats": {
       "atk": 2500,
       "elementalMastery": 200,
@@ -3069,7 +3069,7 @@
   "10000107": {
     "name": "Citlali",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Citlali",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3102,7 +3102,7 @@
   "10000108": {
     "name": "Lan Yan",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Lanyan",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3134,7 +3134,7 @@
   "10000109": {
     "name": "Yumemizuki Mizuki",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Mizuki",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3166,7 +3166,7 @@
   "10000110": {
     "name": "Iansan",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Iansan",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3199,7 +3199,7 @@
   "10000111": {
     "name": "Varesa",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Varesa",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3232,7 +3232,7 @@
   "10000112": {
     "name": "Escoffier",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Escoffier",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3265,7 +3265,7 @@
   "10000113": {
     "name": "Ifa",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Ifa",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3297,7 +3297,7 @@
   "10000114": {
     "name": "Skirk",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_SkirkNew",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3330,7 +3330,7 @@
   "10000115": {
     "name": "Dahlia",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Dahlia",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3363,7 +3363,7 @@
   "10000116": {
     "name": "Ineffa",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Ineffa",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3396,7 +3396,7 @@
   "10000119": {
     "name": "Lauma",
     "element": "Grass",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Lauma",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3430,7 +3430,7 @@
   "10000120": {
     "name": "Flins",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Flins",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3463,7 +3463,7 @@
   "10000121": {
     "name": "Aino",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Aino",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3496,7 +3496,7 @@
   "10000122": {
     "name": "Nefer",
     "element": "Grass",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Nefer",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3530,7 +3530,7 @@
   "10000123": {
     "name": "Durin",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Durin",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3563,7 +3563,7 @@
   "10000124": {
     "name": "Jahoda",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Jahoda",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3595,7 +3595,7 @@
   "10000901": {
     "name": "Mavuika (Trial)",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Mavuika",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3628,7 +3628,7 @@
   "10000902": {
     "name": "Hu Tao (Trial)",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Hutao",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3661,7 +3661,7 @@
   "10000903": {
     "name": "Ineffa",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Ineffa",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3694,7 +3694,7 @@
   "10000904": {
     "name": "Columbina",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Columbina",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3727,7 +3727,7 @@
   "11000046": {
     "name": "Pyro Archon (Test)",
     "element": "Ice",
-    "icon": "",
+    "icon": "UI_AvatarIcon_Qin",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3760,7 +3760,7 @@
   "10000005-502": {
     "name": "Traveler (Fire)",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerBoy",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3793,7 +3793,7 @@
   "10000005-503": {
     "name": "Traveler (Water)",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerBoy",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3826,7 +3826,7 @@
   "10000005-504": {
     "name": "Traveler (Wind)",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerBoy",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3858,7 +3858,7 @@
   "10000005-506": {
     "name": "Traveler (Rock)",
     "element": "Rock",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerBoy",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3891,7 +3891,7 @@
   "10000005-507": {
     "name": "Traveler (Electric)",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerBoy",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3924,7 +3924,7 @@
   "10000005-508": {
     "name": "Traveler (Grass)",
     "element": "Grass",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerBoy",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3958,7 +3958,7 @@
   "10000005-501": {
     "name": "Traveler (None)",
     "element": "None",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerBoy",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -3991,7 +3991,7 @@
   "10000007-701": {
     "name": "Traveler (None)",
     "element": "None",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerGirl",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -4024,7 +4024,7 @@
   "10000007-702": {
     "name": "Traveler (Fire)",
     "element": "Fire",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerGirl",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -4057,7 +4057,7 @@
   "10000007-703": {
     "name": "Traveler (Water)",
     "element": "Water",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerGirl",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -4090,7 +4090,7 @@
   "10000007-704": {
     "name": "Traveler (Wind)",
     "element": "Wind",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerGirl",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -4122,7 +4122,7 @@
   "10000007-706": {
     "name": "Traveler (Rock)",
     "element": "Rock",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerGirl",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -4155,7 +4155,7 @@
   "10000007-707": {
     "name": "Traveler (Electric)",
     "element": "Electric",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerGirl",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
@@ -4188,7 +4188,7 @@
   "10000007-708": {
     "name": "Traveler (Grass)",
     "element": "Grass",
-    "icon": "",
+    "icon": "UI_AvatarIcon_PlayerGirl",
     "optimal_stats": {
       "critRate": 60,
       "critDamage": 120,
