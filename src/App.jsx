@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import guides from './data/guides.json';
 import './index.css';
 
-// Enka.Network fightPropMap keys
 const PROP_MAP = {
   2000: 'hp',
   2001: 'atk',
@@ -56,7 +55,7 @@ function StatBar({ label, current, optimal }) {
 }
 
 function App() {
-  const [uid, setUid] = useState('700000000'); // Örnek UID
+  const [uid, setUid] = useState('700000000'); 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [playerData, setPlayerData] = useState(null);
@@ -68,7 +67,6 @@ function App() {
     setPlayerData(null);
 
     try {
-      // API call to Enka.Network via Vite Proxy (CORS Bypass)
       const response = await fetch(`/api/enka/api/uid/${uid}`);
       if (!response.ok) throw new Error('Hesap bulunamadı veya Showcase gizli!');
       
@@ -89,7 +87,6 @@ function App() {
     for (const [key, value] of Object.entries(fightPropMap)) {
       if (PROP_MAP[key]) {
         let val = value;
-        // Yüzdelik değerleri 100 ile çarp (CRIT, ER)
         if (['20', '22', '23'].includes(key)) val *= 100;
         stats[PROP_MAP[key]] = val;
       }
@@ -115,7 +112,7 @@ function App() {
             onChange={(e) => setUid(e.target.value)}
             className="uid-input"
           />
-          <button type="submit" className="search-btn" disabled={loading}>
+          <button type="submit" className="search-btn animate-pulse-btn" disabled={loading}>
             {loading ? 'Sorgulanıyor...' : 'Analiz Et'}
           </button>
         </form>
@@ -123,36 +120,63 @@ function App() {
         {error && <div className="error-box">⚠️ {error}</div>}
 
         {playerData && (
-          <div className="results-container">
+          <div className="results-container animate-fade-in">
             <h2 className="player-name">Oyuncu: {playerData.playerInfo?.nickname}</h2>
             
             <div className="character-grid">
               {playerData.avatarInfoList.map((avatar, idx) => {
                 const charId = avatar.avatarId.toString();
-                const guide = guides[charId];
+                const guide = guides[charId] || guides[`${charId}-502`] || guides[`${charId}-701`]; // Fallback for Traveler variants
                 const currentStats = parseStats(avatar.fightPropMap);
 
                 return (
-                  <div key={idx} className="character-card glass-panel">
-                    <div className="card-header">
+                  <div key={idx} className="character-card glass-panel" style={{ animationDelay: `${idx * 0.15}s` }}>
+                    <div className={`card-header element-${guide ? guide.element.toLowerCase() : 'unknown'}`}>
+                      {guide && guide.icon && (
+                        <div className="portrait-wrapper">
+                          <img 
+                            src={`https://enka.network/ui/${guide.icon}.png`} 
+                            alt={guide.name} 
+                            className="character-portrait"
+                            onError={(e) => e.target.style.display = 'none'}
+                          />
+                        </div>
+                      )}
                       <h3>{guide ? guide.name : `Karakter ID: ${charId}`}</h3>
-                      {!guide && <span className="badge warning">Rehber Eksik</span>}
                     </div>
 
                     {guide ? (
-                      <div className="stats-list">
-                        <h4>İdeal Stat Analizi</h4>
-                        {Object.keys(guide.optimal_stats).map(statKey => (
-                          <StatBar 
-                            key={statKey}
-                            label={statKey} 
-                            current={currentStats[statKey] || 0} 
-                            optimal={guide.optimal_stats[statKey]} 
-                          />
-                        ))}
+                      <div className="card-body">
+                        <div className="stats-list">
+                          <h4 className="section-title">İdeal Stat Analizi</h4>
+                          {Object.keys(guide.optimal_stats).map(statKey => (
+                            <StatBar 
+                              key={statKey}
+                              label={statKey} 
+                              current={currentStats[statKey] || 0} 
+                              optimal={guide.optimal_stats[statKey]} 
+                            />
+                          ))}
+                        </div>
+
+                        <div className="equipment-section">
+                          <div className="eq-box">
+                            <h4 className="section-title">⚔️ Önerilen Silahlar</h4>
+                            <ul>
+                              {guide.weapons.map((w, i) => <li key={i}>{w}</li>)}
+                            </ul>
+                          </div>
+                          
+                          <div className="eq-box">
+                            <h4 className="section-title">🌸 Önerilen Yadigarlar</h4>
+                            <ul>
+                              {guide.artifacts.map((a, i) => <li key={i}>{a}</li>)}
+                            </ul>
+                          </div>
+                        </div>
                         
                         <div className="talents-section">
-                          <h4>Yetenek (Talent) Önceliği</h4>
+                          <h4 className="section-title">👑 Yetenek Önceliği</h4>
                           <ul>
                             {guide.talent_priority.map((talent, tIdx) => (
                               <li key={tIdx}>
@@ -165,7 +189,7 @@ function App() {
                       </div>
                     ) : (
                       <div className="no-guide">
-                        <p>Bu karakter için henüz KQM (KeqingMains) ideal veritabanı eklenmedi. Sadece Raiden, Hu Tao, Neuvillette ve Alhaitham desteklenmektedir.</p>
+                        <p>Bilinmeyen Karakter (Veritabanında bulunamadı).</p>
                       </div>
                     )}
                   </div>
