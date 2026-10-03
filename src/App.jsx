@@ -1,16 +1,7 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import guides from './data/guides.json';
+import { fetchPlayer, parseStats } from './lib/enka';
 import './index.css';
-
-const PROP_MAP = {
-  2000: 'hp',
-  2001: 'atk',
-  2002: 'def',
-  20: 'critRate',
-  22: 'critDamage',
-  23: 'energyRecharge',
-  28: 'elementalMastery'
-};
 
 const LABEL_MAP = {
   hp: 'HP (Can)',
@@ -60,38 +51,27 @@ function App() {
   const [error, setError] = useState(null);
   const [playerData, setPlayerData] = useState(null);
 
+  const abortRef = useRef(null);
+
   const fetchEnkaData = async (e) => {
     e.preventDefault();
+    // Önceki istek bitmeden yenisi başlarsa eskisini iptal et.
+    abortRef.current?.abort();
+    const controller = new AbortController();
+    abortRef.current = controller;
+
     setLoading(true);
     setError(null);
     setPlayerData(null);
 
     try {
-      const response = await fetch(`/api/enka/api/uid/${uid}`);
-      if (!response.ok) throw new Error('Hesap bulunamadı veya Showcase gizli!');
-      
-      const data = await response.json();
-      if (!data.avatarInfoList || data.avatarInfoList.length === 0) {
-        throw new Error('Karakter Vitrini (Showcase) boş! Oyun içinden karakterlerinizi sergileyin.');
-      }
-      setPlayerData(data);
+      setPlayerData(await fetchPlayer(uid, { signal: controller.signal }));
     } catch (err) {
+      if (err.name === 'AbortError') return;
       setError(err.message);
     } finally {
-      setLoading(false);
+      if (abortRef.current === controller) setLoading(false);
     }
-  };
-
-  const parseStats = (fightPropMap) => {
-    const stats = {};
-    for (const [key, value] of Object.entries(fightPropMap)) {
-      if (PROP_MAP[key]) {
-        let val = value;
-        if (['20', '22', '23'].includes(key)) val *= 100;
-        stats[PROP_MAP[key]] = val;
-      }
-    }
-    return stats;
   };
 
   return (
@@ -110,6 +90,8 @@ function App() {
             placeholder="Genshin UID Giriniz..." 
             value={uid}
             onChange={(e) => setUid(e.target.value)}
+            inputMode="numeric"
+            aria-label="Genshin UID"
             className="uid-input"
           />
           <button type="submit" className="search-btn animate-pulse-btn" disabled={loading}>

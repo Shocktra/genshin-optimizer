@@ -1,16 +1,21 @@
-# React + Vite
+# Teyvat Optimizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Genshin Impact UID'nizi girin; Enka.Network Showcase verisinden karakterlerinizin stat'larını ideal yapıyla karşılaştırın, önerilen silah, yadigâr ve yetenek önceliklerini görün.
 
-Currently, two official plugins are available:
+## Geliştirme
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev     # geliştirme sunucusu
+npm test        # birim testleri (vitest)
+npm run lint    # oxlint
+npm run build   # üretim derlemesi
+```
 
-## React Compiler
+> **Not:** Enka API isteklerini tarayıcı CORS kısıtından kaçınmak için `vite.config.js` içindeki geliştirme proxy'si (`/api/enka`) karşılıyor. Bu proxy yalnızca `npm run dev` sırasında çalışır; derlenmiş sürümü statik olarak yayınlarken aynı yolu Enka'ya yönlendiren bir sunucu/reverse proxy gerekir.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## İdeal stat veritabanı
 
-## Expanding the Oxlint configuration
+`src/data/guides.json`, `build_db.py` ile `chars.json` ve `loc.json` dosyalarından üretilir (bu iki dosya repoda yok; oyun verisi dump'larından sağlanmalıdır). İdeal değerler elle yazılmış tahminlerdir, resmî veri değildir.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Teknolojiler: React, Vite.
